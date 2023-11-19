@@ -43,19 +43,19 @@ export default function About({}: Props) {
         </h4>
         <p className="text-sm">
           Studying software and business engineering - my driving force is using
-          technology to improve people's lives. Stack: C#, Java, JavaScript,
-          React, MS SQL, PostgreSQL, PowerBI, CSS, HTML I thrive in dynamic
-          environments, love problem-solving, and find purpose in collaboration.
-          My superpowers? Curiosity fuels my passion for continuous learning and
-          challenging the status quo. Empathy connects me with others on a
-          deeper level, understanding their needs and perspectives. Beyond
-          coding, I enjoy spending time in nature, solving sudoku, experimenting
-          with recipes, and understanding the human brain through podcasts. I
-          value teamwork and its positive energy. My ideal workspace is where I
-          am welcomed to ask questions and get constructive feedback from
-          colleagues with real-life experience. I cherish great cooperation,
-          knowledge sharing, and healthy sparring, where we can challenge each
-          other's ideas.
+          technology to improve people&apos;s lives. Stack: C#, Java,
+          JavaScript, React, MS SQL, PostgreSQL, PowerBI, CSS, HTML I thrive in
+          dynamic environments, love problem-solving, and find purpose in
+          collaboration. My superpowers? Curiosity fuels my passion for
+          continuous learning and challenging the status quo. Empathy connects
+          me with others on a deeper level, understanding their needs and
+          perspectives. Beyond coding, I enjoy spending time in nature, solving
+          sudoku, experimenting with recipes, and understanding the human brain
+          through podcasts. I value teamwork and its positive energy. My ideal
+          workspace is where I am welcomed to ask questions and get constructive
+          feedback from colleagues with real-life experience. I cherish great
+          cooperation, knowledge sharing, and healthy sparring, where we can
+          challenge each other&apos;s ideas.
         </p>
       </div>
     </motion.div>
