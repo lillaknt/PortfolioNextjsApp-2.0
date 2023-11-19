@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+  }
+}
+
+@layer components {
+  .heroButton {
+    @apply px-6 py-2 border border-almostWhite rounded-full uppercase text-sm tracking-widest   hover:border-brownPrimary/20;
+  }
+  .sectionDiv {
+    @apply flex flex-col relative h-screen text-center px-10 justify-evenly mx-auto items-center;
+  }
+
+  .sectionTitle {
+    @apply absolute top-24 uppercase tracking-[15px] text-almostWhite/40 text-2xl;
+  }
+
+  .contactInput {
+    @apply outline-none bg-brownPrimary/20 rounded-sm px-6 py-4 border-brownPrimary text-almostWhite placeholder-almostWhite transition-all focus:border-brownPrimary
+    focus:text-almostWhite/40 hover:border-almostWhite/40;
+  }
+}
